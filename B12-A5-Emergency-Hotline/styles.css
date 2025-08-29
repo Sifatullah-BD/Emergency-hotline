@@ -1,0 +1,23 @@
+
+/* Custom Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Card Hover Effect */
+.card-custom {
+  transition: all 0.3s ease-in-out;
+}
+.card-custom:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Modal Style */
+.modal-custom {
+  background: linear-gradient(to bottom right, #166534, #15803d, #16a34a);
+  color: white;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  border-radius: 1rem;
+  border: none;
+}
